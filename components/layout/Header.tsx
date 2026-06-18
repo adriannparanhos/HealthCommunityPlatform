@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Button } from '../ui/Button';
 
 export function Header() {
   return (
@@ -7,7 +8,13 @@ export function Header() {
         <Link href="/" className="text-xl font-bold text-slate-800">
           MindHealth
         </Link>
-        <nav>
+        <nav className="flex items-center gap-4">
+            <Link href="/login">
+                <Button variant="outline">Entrar</Button>
+            </Link>
+            <Link href="/cadastro">
+                <Button variant="primary">Cadastrar</Button>
+            </Link>
         </nav>
       </div>
     </header>

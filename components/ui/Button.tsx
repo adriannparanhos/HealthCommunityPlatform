@@ -10,8 +10,8 @@ export function Button({ variant = 'primary', className, children, ...props }: B
   const baseStyles = "px-4 py-2 rounded-md font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2";
   
   const variants = {
-    primary: "bg-slate-800 text-white hover:bg-slate-700",
-    outline: "border-2 border-slate-800 text-slate-800 hover:bg-slate-100"
+    primary: "bg-brand-primary text-white hover:bg-brand-primary-hover",
+    outline: "border-2 border-brand-primary text-brand-primary hover:bg-brand-surface"
   };
 
   return (
