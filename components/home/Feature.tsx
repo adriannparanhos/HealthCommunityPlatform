@@ -1,16 +1,17 @@
 export function Features() {
+  // Atualizando a proposta de valor para refletir comunidade e saúde integral
   const featuresList = [
     {
-      title: "Diário Inteligente",
-      description: "Desabafe em um ambiente seguro e organizado."
+      title: "Comunidade Acolhedora",
+      description: "Compartilhe seus desafios e conquistas diárias com pessoas que te entendem e apoiam."
     },
     {
-      title: "Análise com IA",
-      description: "Descubra padrões ocultos nas suas emoções."
+      title: "Saúde Física e Mental",
+      description: "Um ecossistema completo para registrar e celebrar tanto seus treinos quanto seus sentimentos."
     },
     {
-      title: "Dashboard Pessoal",
-      description: "Acompanhe sua evolução através de gráficos claros."
+      title: "Conexões Reais",
+      description: "Interaja com relatos inspiradores e construa uma rede de apoio para uma vida mais equilibrada."
     }
   ];
 
@@ -18,7 +19,6 @@ export function Features() {
     <section className="w-full bg-white px-4 py-20">
       <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 text-center md:grid-cols-3">
         
-        {}
         {featuresList.map((feature) => (
           <div 
             key={feature.title} 

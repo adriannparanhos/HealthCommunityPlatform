@@ -5,17 +5,17 @@ export function Hero() {
   return (
     <section className="w-full bg-slate-50 px-4 py-24 text-center">
       <h1 className="mb-6 text-5xl font-extrabold text-slate-900 md:text-6xl">
-        Sua mente em <span className="text-brand-primary">equilíbrio</span>
+        Um espaço seguro para o seu <span className="text-brand-primary">bem-estar</span>
       </h1>
       <p className="mx-auto mb-10 max-w-2xl text-lg text-slate-600">
-        Registre seu humor diário, escreva no seu diário pessoal e receba insights emocionais gerados por Inteligência Artificial para uma vida mais saudável.
+        Conecte-se com pessoas reais. Compartilhe sua jornada, fale sobre sua vida e encontre apoio para cuidar da sua saúde mental e física todos os dias.
       </p>
       <div className="flex justify-center gap-4">
         <Link href="/cadastro">
-          <Button variant="primary">Começar Gratuitamente</Button>
+          <Button variant="primary">Junte-se à Comunidade</Button>
         </Link>
         <Link href="/sobre">
-          <Button variant="outline">Como funciona</Button>
+          <Button variant="outline">Entenda o Propósito</Button>
         </Link>
       </div>
     </section>
